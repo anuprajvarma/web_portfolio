@@ -1,8 +1,5 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
-import 'package:resumeflutter/network/network.dart';
-import 'package:resumeflutter/widgets/CustomFlatbutton.dart';
 import 'package:resumeflutter/values/values.dart';
 
 class Introduction extends StatelessWidget {
@@ -33,12 +30,6 @@ class Introduction extends StatelessWidget {
               ),
               SizedBox(
                 height: 5,
-              ),
-              CustomFlatButton(
-                onTap: () {
-                  Network().launchURL(resumeUrl);
-                },
-                text: 'View CV',
               ),
             ],
           ),

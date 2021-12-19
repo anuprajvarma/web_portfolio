@@ -50,12 +50,6 @@ class About extends StatelessWidget {
                   SizedBox(
                     width: 20,
                   ),
-                  CustomFlatButton(
-                    text: 'View CV',
-                    onTap: () {
-                      Network().launchURL(resumeUrl);
-                    },
-                  ),
                 ],
               )
             ],
